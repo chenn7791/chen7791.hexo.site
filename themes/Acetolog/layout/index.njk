@@ -2,10 +2,10 @@
 {% block content %}
     <div class="al_index_background dis_flex_center al_full_cover">
         <div class="al_pos_ab al_letter al_index_background_letter">
-            {{ config.bio|default('A Simple Theme')|first|upper }}
+            {{ config.bio|default('Be a free man')|first|upper }}
         </div>
         <h2 class="al_index_background_bio">
-            {{ config.bio|default('A Simple Theme') }}
+            {{ config.bio|default('Be a free man') }}
         </h2>
     </div>
     <div class="al_index_container">
@@ -13,7 +13,7 @@
         <div class="al_main_container al_shadow">
             <div class="al_section_container dis_flex_jcenter">
                 <div class="section_header">
-                    LATEST PAGES
+                    最近发布
                 </div>
             </div>
             <ul class="al_post_list">
@@ -46,12 +46,12 @@
                         </div>
                         <div class="al_index_post_button_cnt dis_flex">
                             <a class="al_button al_button_theme al_index_post_button" href="{{ url_for(item.path) }}">
-                                READ ON
+                                立即查看
                             </a>
                             <a
                                 class="al_button al_button_transparent al_index_post_button"
                                 href="//getpocket.com/edit?url={{ config.url + '/' + item.path }}">
-                                READ LATER
+                                稍后查看
                             </a>
                         </div>
                     </li>

@@ -30,16 +30,16 @@ disqus:
 # Contact info will be shown on the side bar.
 
 contact:
-  enable: false
-  description: 'Contact Info description'
+  enable: true
+  description:
 
   twitter:
     enable: false
     username: twitter_username
 
   github:
-    enable: false
-    username: github_username
+    enable: true
+    username: chenn7791
 
   weibo:
     enable: false

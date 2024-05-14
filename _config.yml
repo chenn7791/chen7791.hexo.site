@@ -5,7 +5,7 @@
 # Site
 title: ChennBlogs
 subtitle: '我的一些记录'
-description: '描述'
+description: '记录一些工作生活和日常'
 keywords:
 author:  Chenn
 language: zh-CN
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false # 草稿默认不会显示在页面中，您可在执行时加上 --draft 参数，或是在 _config.yml 中把 render_drafts 参数设为 true 来预览草稿
-post_asset_folder: false
+post_asset_folder: true # 文章资源文件夹
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -67,6 +67,8 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  "yesterday's thoughts": yesterdays-thoughts
+  "C++": c-plus-plus
 tag_map:
 
 # Metadata elements

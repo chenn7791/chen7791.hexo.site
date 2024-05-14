@@ -16,13 +16,12 @@
 
             <div class="al_sidebar_author_info">
                 <h4>{{ config.author }}</h4>
-                <img class="al_sidebar_avatar" src="{{ config.avatar or theme.avatar or '' }}">
                 <p>{{ config.description }}</p>
             </div>
 
             {% if theme.contact.enable === true %}
                 <div class="al_sidebar_contact_info">
-                    <h4>GET IN TOUCH</h4>
+                    <h4>联系方式</h4>
                     <p>{{ theme.contact.description }}</p>
 
                     <div class="dis_flex al_sidebar_social_widget">
