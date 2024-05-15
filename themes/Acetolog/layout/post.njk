@@ -27,16 +27,15 @@
 
                         {% if wordcount %}
                             <div class="al_page_content_info">
-                                {{ wordcount(page.content) }} words
+                                总计{{ wordcount(page.content) }}文字
                             </div>
                         {% endif %}
 
                         {% if min2read %}
                             <div class="al_page_content_info">
-                                {{ min2read(page.content) }} minutes read
+                                阅读时长{{ min2read(page.content) }}
                             </div>
                         {% endif %}
-                        <span class="tags"></span>
                     </div>
                 </header>
 

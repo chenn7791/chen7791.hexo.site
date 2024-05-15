@@ -2,7 +2,7 @@
  * @Author: Chenn
  * @Date: 2024-05-14 15:23:07
  * @LastEditors: Chenn
- * @LastEditTime: 2024-05-14 16:33:44
+ * @LastEditTime: 2024-05-14 17:37:36
 -->
 
 Node 版本
@@ -23,6 +23,12 @@ https://hexo.io/zh-cn/docs/writing
 
 使用主题
 https://github.com/iGuan7u/Acetolog
+
+主题修改-如何修改.njk文件
+https://mozilla.github.io/nunjucks/templating.html
+
+yml文件使用
+https://www.runoob.com/w3cnote/yaml-intro.html
 
 创建文章或者新页面
 
